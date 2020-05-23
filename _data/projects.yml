@@ -1,0 +1,41 @@
+- url: http://luna-period.herokuapp.com/
+  src: luna.png
+  name: LUNA
+  description: Luna is a period information web application meant to help women relieve their symptoms. 
+              This was a project I worked on during Kode with Klossy with Jevina Wong and Hilary Zen. 
+              We only had a day to create it (completely from scratch using HTML, CSS, and Ruby).
+
+- url: http://teenhacksli.com/
+  src: teenhacksli.png
+  name: TEENHACKS LI
+  description: Teenhacks LI is a hackathon I'm currently helping organize.
+              With the help of my friend, Jeffrey Yu, I made the website that acts as an information page for the hackathon.
+              This website was created using Bootstrap. It was fun learning a CSS framework for the first time!
+
+- url: http://spethani.github.io/silent_voice/
+  src: silentvoice.png
+  name: SILENT VOICE
+  description: Silent Voice is a s a text-based game intended to bring awareness to the effects of bullying.
+              With the help of my friend, Jeffrey Yu, (again) I made this interactive story through a program called Twine.
+              This project made me truly appreciate the authors that create "choose your own adventure" stories; there were so many different storylines to write!
+
+- url: https://roslyncode.github.io/totorojump
+  src: totorojump.png
+  name: TOTORO JUMP
+  description: Totoro Jump is a knock-off of the classic Doodle Jump.
+              This was a project I worked on during my first ever hackathon, CodeDay NY.
+              At the time, I knew little to no code, so I used Construct 2 for this project and followed a beginner tutorial.
+
+- url: https://samsm929.github.io/the%20hack/
+  src: pineapplesmash.png
+  name: PINEAPPLE SMASH
+  description: Pineapple Smash is a basic idle-clicker game.
+              This was a project I worked on during a competition in code club with my friend Sam Miller.
+              This project was the first time I ever used JavaScript.
+
+- url: assets/img/project/hsguide.pdf
+  src: hsguide.png
+  name: HIGH SCHOOL SURVIVAL GUIDE
+  description: This is a guide I made for people entering Roslyn High School.
+              Though this isn't a coding related project, I wanted to put together a list of all the things I wish I knew before high school.
+              I spent a long time compiling this, and I hope it's useful for someone!

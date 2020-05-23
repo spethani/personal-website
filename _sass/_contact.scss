@@ -1,0 +1,33 @@
+.contactBlurb {
+    margin: auto;
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    p {
+        text-align: center;
+    }
+    button {
+        width: 250px;
+        &:hover {
+            background-color: $mediumColor;
+        }
+    }
+}
+
+.media-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    img {
+        width: 60px;
+        filter: opacity(15%);
+        transition: 0.5s;
+        &:hover {
+            filter: opacity(30%);
+            transition: 0.5s;
+        }
+    }
+}

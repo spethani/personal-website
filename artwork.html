@@ -1,0 +1,43 @@
+---
+layout: page
+title: "Artwork"
+---
+
+<!--ARTWORK GALLERIES-->
+        
+<!--Modals-->
+<div id="myModal" class="modal">
+    <!-- The Close Button -->
+    <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="modalImg">
+</div>
+
+<!--Buttons to show and hide the different types of art-->
+<div class="artwork-buttons">
+    <button id="watercolor-btn" onclick="showWatercolor()">Watercolor Art</button>
+    <button id="digital-btn" onclick="showDigital()">Digital Art</button>
+    <button id="other-btn" onclick="showOther()">Other Art</button>
+</div>
+
+<!--Galleries-->
+<div id="watercolor-gallery" class="gallery">
+    {% assign image_files = site.static_files | where: "watercolor-image", true %}
+    {% for myimage in image_files %}
+        <img class="galPic" src="{{ myimage.path }}">
+    {% endfor %}
+</div>
+
+<div id="digital-gallery" class="gallery">
+    {% assign image_files = site.static_files | where: "digital-image", true %}
+    {% for myimage in image_files %}
+        <img class="galPic" src="{{ myimage.path }}">
+    {% endfor %}
+</div>
+
+<div id="other-gallery" class="gallery">
+    {% assign image_files = site.static_files | where: "other-image", true %}
+    {% for myimage in image_files %}
+        <img class="galPic" src="{{ myimage.path }}">
+    {% endfor %}
+</div>

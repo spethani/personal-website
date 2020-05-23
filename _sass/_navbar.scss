@@ -1,0 +1,100 @@
+@import 'branding';
+
+#navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+#navbar.responsive {
+    @media screen and (max-width: 650px) {
+        width: 100%;
+        height: 95vh;
+        align-items: unset;
+        flex-direction: column;
+    }
+}
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    @media screen and (max-width: 650px) {
+        display: none;
+    }
+}
+
+.nav-links.responsive {
+    @media screen and (max-width: 650px) {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 85vh;
+        justify-content: space-around;
+    }
+}
+
+.nav-link {
+    list-style: none;
+    background-color: $lightColor;
+    padding: 3px 10px 3px 13px;
+    color: $lightTextColor;
+    text-align: center;
+    transition: 0.5s;
+    &:hover {
+        color: $darkTextColor;
+        background-color: $mediumColor;
+        transition: 0.5s;
+    }
+    a {
+        color: inherit;
+        text-transform: uppercase;
+        text-decoration: none;
+        @media screen and (max-width: 650px) {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    } 
+    @media screen and (max-width: 650px) {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+}
+
+.nav-link-active {
+    list-style: none;
+    border-bottom: .25rem solid $mediumColor;
+    color: $darkTextColor;
+    padding: 3px 10px 3px 13px;
+    a {
+        color: inherit;
+        text-transform: uppercase;
+        text-decoration: none;
+    } 
+    @media screen and (max-width: 650px) {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.hamburger {
+    display: none;
+    width: 100%;
+    text-align: right;
+    @media screen and (max-width: 650px) {
+        position: relative;
+        height: 10vh;
+        display: block;
+        color: $lightTextColor;
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,12 @@
+<div id="navbar">
+    <a href="javascript:void(0);" class="hamburger" onclick="expandHamburger()">
+        <i class="fa fa-bars"></i>
+    </a></li>
+    <ul id="top-nav" class="nav-links">
+        
+        <li {% if page.url == "/" %}class="nav-link-active"{% else %}class="nav-link"{% endif %}><a href="/">About</a></li>
+        <li {% if page.url == "/artwork.html" %}class="nav-link-active"{% else %}class="nav-link"{% endif %}><a href="artwork.html">Artwork</a></li>
+        <li {% if page.url == "/projects.html" %}class="nav-link-active"{% else %}class="nav-link"{% endif %}><a href="projects.html">Projects</a></li>
+        <li {% if page.url == "/contact.html" %}class="nav-link-active"{% else %}class="nav-link"{% endif %}><a href="contact.html">Contact Me</a></li>
+    </ul>
+</div>

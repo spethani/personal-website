@@ -1,0 +1,58 @@
+@import 'branding';
+
+h1 {
+    text-align: center;
+    font-family: $fancyFont;
+    color: $mediumColor;
+    text-shadow: 1px 1px 1px $textShadowColor;
+}
+
+h2 {
+    text-align: center;
+    font-family: $fancyFont;
+    color: $lightTextColor;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.project-img {
+    width: 20%;
+    img {
+        max-width: 100%;
+        border-radius: 5%;
+        box-shadow: 5px 5px $mediumColor;
+        filter: opacity(90%);
+        transition-duration: 1s;
+        &:hover {
+            filter: opacity(100%);
+            transition-duration: 1s;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        width: 80%;
+    }
+}
+.project-description {
+    width: 70%;
+    p {
+        margin-bottom: 10px;
+        @media screen and (max-width: 650px) {
+            text-align: center;
+        }
+    }
+    @media screen and (max-width: 650px) {
+        margin-top: 30px;
+        width: 80%;
+    }
+}
