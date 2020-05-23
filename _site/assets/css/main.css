@@ -16,13 +16,13 @@
 
 @media screen and (max-width: 650px) { .nav-link a { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; } }
 
-@media screen and (max-width: 650px) { .nav-link { width: 100%; height: 100%; padding: 0; } }
+@media screen and (max-width: 650px) { .nav-link { width: 100%; height: 25%; padding: 0; } }
 
 .nav-link-active { list-style: none; border-bottom: 0.25rem solid #D5D2F5; color: #555555; padding: 3px 10px 3px 13px; }
 
 .nav-link-active a { color: inherit; text-transform: uppercase; text-decoration: none; }
 
-@media screen and (max-width: 650px) { .nav-link-active { width: 100%; height: 100%; padding: 0; display: flex; align-items: center; justify-content: center; } }
+@media screen and (max-width: 650px) { .nav-link-active { width: 100%; height: 25%; padding: 0; display: flex; align-items: center; justify-content: center; } }
 
 .hamburger { display: none; width: 100%; text-align: right; }
 
