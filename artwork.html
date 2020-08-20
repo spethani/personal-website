@@ -24,20 +24,20 @@ title: "Artwork"
 <div id="watercolor-gallery" class="gallery">
     {% assign image_files = site.static_files | where: "watercolor-image", true %}
     {% for myimage in image_files %}
-        <img class="galPic" src="{{ myimage.path }}">
+        <div><img class="galPic" src="{{ myimage.path }}"></div>
     {% endfor %}
 </div>
 
 <div id="digital-gallery" class="gallery">
     {% assign image_files = site.static_files | where: "digital-image", true %}
     {% for myimage in image_files %}
-        <img class="galPic" src="{{ myimage.path }}">
+        <div><img class="galPic" src="{{ myimage.path }}"></div>
     {% endfor %}
 </div>
 
 <div id="other-gallery" class="gallery">
     {% assign image_files = site.static_files | where: "other-image", true %}
     {% for myimage in image_files %}
-        <img class="galPic" src="{{ myimage.path }}">
+        <div><img class="galPic" src="{{ myimage.path }}"></div>
     {% endfor %}
 </div>
