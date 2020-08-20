@@ -1,10 +1,29 @@
+- url: https://github.com/ScottyLabs/TartanHacksRegistration
+  src: tartanhacks.png
+  name: TARTANHACKS REGISTRATION SYSTEM
+  description: This is the registration system for TartanHacks, Carnegie Mellon's largest hackathon.
+              The registration system was created using Mongo, Express, Angular, and Node by former ScottyLabs members,
+              which I currently help update and bug fix along with other members on the registration team.
+- url: https://www.gamecreation.org/games/game_bytes
+  src: sporshmallow.png
+  name: SPORSHMALLOW
+  description: Sporshmallow is a 2D, two player fighting game in which marshmallow-like characters combat each other.
+              Players can choose between a tennis player (long range) or a karate player (short range).
+              Made in Unity using C# with my friends Gustavo Silvera and Bella Laybourn.
 - url: http://luna-period.herokuapp.com/
   src: luna.png
   name: LUNA
   description: Luna is a period information web application meant to help women relieve their symptoms. 
               This was a project I worked on during Kode with Klossy with Jevina Wong and Hilary Zen. 
               We only had a day to create it (completely from scratch using HTML, CSS, and Ruby).
-
+- url: https://spethani.github.io/environmentaList/
+  src: environmentalist.png
+  name: ENVIRONMENTALIST
+  description: EnvironmentaList is an environmental information website. The main page focuses on information about countries'
+              carbon emissions, while other pages give information on how to make a personal positive impact on the environment.
+              This website was made as a part of Kode with Klossy with Daniela Zarate and Danielle Rabiner. It was made in a day
+              using only vanilla HTML, CSS, and Javascript. The technical focus of this project was to learn about responsive design
+              without the use of frameworks.
 - url: http://teenhacksli.com/
   src: teenhacksli.png
   name: TEENHACKS LI
