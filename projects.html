@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "Projects"
+description: A display of Sarah's projects from high school until now. Includes pictures and descriptions.
+keywords: sarah pethani projects, sarah pethani github, sarah pethani project
 ---
 
 <h1>Interested in my work?</h1>
@@ -8,7 +10,7 @@ title: "Projects"
 {% for project in site.data.projects %}
 <div class="project-card">
     <div class="project-img">
-        <a href="{{project.url}}" target="_blank"><img src="assets/img/project/{{project.src}}"/></a>
+        <a href="{{project.url}}" target="_blank"><img src="assets/img/project/{{project.src}}" alt="{{project.name}}"/></a>
     </div>
     <div class="project-description">
         <p>{{project.name}}</p>

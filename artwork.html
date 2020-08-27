@@ -1,6 +1,8 @@
 ---
 layout: page
 title: "Artwork"
+description: A gallery of Sarah's hobbyist artwork, which includes watercolor, digital, and other art.
+keywords: sarah pethani art, art sarah, watercolor, digital, art
 ---
 
 <!--ARTWORK GALLERIES-->
@@ -24,20 +26,20 @@ title: "Artwork"
 <div id="watercolor-gallery" class="gallery">
     {% assign image_files = site.static_files | where: "watercolor-image", true %}
     {% for myimage in image_files %}
-        <div><img class="galPic" src="{{ myimage.path }}"></div>
+        <div><img class="galPic" src="{{ myimage.path }}" alt="watercolor artwork"></div>
     {% endfor %}
 </div>
 
 <div id="digital-gallery" class="gallery">
     {% assign image_files = site.static_files | where: "digital-image", true %}
     {% for myimage in image_files %}
-        <div><img class="galPic" src="{{ myimage.path }}"></div>
+        <div><img class="galPic" src="{{ myimage.path }}" alt="digital artwork"></div>
     {% endfor %}
 </div>
 
 <div id="other-gallery" class="gallery">
     {% assign image_files = site.static_files | where: "other-image", true %}
     {% for myimage in image_files %}
-        <div><img class="galPic" src="{{ myimage.path }}"></div>
+        <div><img class="galPic" src="{{ myimage.path }}" alt="other artwork"></div>
     {% endfor %}
 </div>

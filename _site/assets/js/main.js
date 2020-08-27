@@ -48,7 +48,12 @@ function showOther() {
   otherGal.className = "gallery active-gallery";
 }
 
-window.onload=showWatercolor();
+try {
+  window.onload=showWatercolor();
+}
+catch {
+  console.log("Can't show watercolor if not artwork page.");
+}
 
 /* Modal JS */
 var modal = document.getElementById("myModal");
@@ -62,8 +67,12 @@ for(var i=0;i< img.length;i++) {
     }
 }
 
-var span = document.getElementsByClassName("close")[0];
-
-span.onclick = function() { 
-   modal.style.display = "none";
+try {
+  var span = document.getElementsByClassName("close")[0];
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+}
+catch {
+  console.log("Modal is only on artwork page.");
 }
